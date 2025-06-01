@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fff8f0;
+  background-color: #191919;
   color: #333;
 }
 
@@ -28,7 +28,7 @@ nav {
 }
 
 .submenu a {
-  color: white;
+  color: purple;
   margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
