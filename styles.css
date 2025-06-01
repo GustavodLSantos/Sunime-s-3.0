@@ -41,8 +41,8 @@ section {
 }
 
 h2 {
-  color: #f04d4d;
-  border-bottom: 2px solid #f04d4d;
+  color: #263d6d;
+  border-bottom: 2px solid #263d6d;
   padding-bottom: 5px;
 }
 
@@ -52,7 +52,7 @@ h3 {
 }
 
 h4, h5 {
-  color: #f04d4d;
+  color: #263d6d;
 }
 
 img.card {
