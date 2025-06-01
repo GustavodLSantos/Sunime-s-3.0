@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Sunime's</title>
+     <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+         <h1>Sunime’s</h1>
+          <nav>
+              <a href="#historia">História</a>
+              <a href="#cardapio">Cardápio</a>
+            </nav>
+        </header>
+        <div class="image">
+        <img src="img/ChatGPT Image 31 de mai. de 2025, 14_12_18.png" class="animes">
+        </div>
+       <section id="historia">
+         <h2>História</h2>
+         <div class="historia-container">
+              <p>A Sunime’s nasceu como um projeto escolar criado por um grupo de cinco amigos apaixonados pela cultura japonesa e pelo universo dos animes. A ideia surgiu durante uma conversa na escola, quando percebemos que poderíamos unir nossas paixões em uma empresa fictícia. O nome "Sunime’s" é a junção de "sun" (sol) e "anime’s", simbolizando uma luz criativa que representa tudo o que amamos no Japão.</p>
+              <img src="img/WhatsApp Image 2025-05-21 at 09.21.34.jpeg" alt="Imagem do grupo Sunime’s" class="card">
+            </div>
+        </section>
+
+       <section id="cardapio">
+         <h2>Cardápio</h2>
+         <div class="header">
+             <nav class="submenu">
+                <a href="#Pratos principais">Pratos principais</a>
+                <a href="#Pratos quentes">Pratos quentes</a>
+                <a href="#Doces">Doces</a>
+                <a href="#Bebidas">Bebidas</a>
+             </nav>
+            </div>
+            <section id="Pratos principais">
+             <h3>Pratos principais</h3>
+             <div class="secao">
+                <img src="img/poke.jpg" class="card">
+                <div>
+                    <h4>Poke</h4>
+                    <p>Sunomono, couve crispy, kani, cream cheese e gohan 200g  opções vegetariana, camarão e salmão.</p>
+                    <p class="dinheiro">R$ 60,00</p>
+                    <button onclick="adicionarAoCarrinho('Poke', 60.00)">Adicionar ao carrinho</button>
+                </div>
+             </div>
+             <div class="secao">
+                <img src="img/temaki.jpg" class="card">
+                <div>
+                    <h4>Temaki</h4>
+                    <p>Temaki com recheio de salmão, salmão grelhado, atum, shimeji, california ou hot com adicional de cream cheese.</p>
+                    <p class="dinheiro">R$ 28,00</p>
+                    <button onclick="adicionarAoCarrinho('Temaki', 28.00)">Adicionar ao carrinho</button>
+                </div>
+             </div>
+             <div class="secao">
+                <img src="img/sushi.jpg" class="card">
+                <div>
+                    <h4>Sushi</h4>
+                    <p>Sushi de salmão, kani ou pepino com opcional de cream cheese.</p>
+                    <p class="dinheiro">8 unidades R$ 26,00</p>
+                    <p class="dinheiro">16 unidades R$ 52,00</p>
+                    <button onclick="adicionarAoCarrinho('Sushi', 26.00)">Adicionar ao carrinho</button>
+                </div>
+             </div>
+             <div class="secao">
+                <img src="img/teppanyaki.jpg" class="card">
+                <div>
+                    <h4>Teppanyaki</h4>
+                    <p>Deliciosa coxinha com massa de batata e recheio de frango bem temperado.</p>
+                    <p class="dinheiro">R$ 60,00</p>
+                    <button onclick="adicionarAoCarrinho('Teppanyaki', 60.00)">Adicionar ao carrinho</button>
+                </div>
+             </div>
+            </section>
+            <section id="Pratos quentes">
+        <h3>Pratos quentes</h3>
+        <div class="secao">
+          <img src="img/yakisoba.jpg" alt="Yakisoba" class="card">
+          <div>
+            <h4>Yakisoba</h4>
+            <p>Macarrão com legumes. Opções: frango, carne, vegetariano, camarão.</p>
+            <p class="dinheiro">R$ 35,00</p>
+            <button onclick="adicionarAoCarrinho('Yakisoba', 35.00)">Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="secao">
+          <img src="img/lámen.jpg" alt="Lámen" class="card">
+          <div>
+            <h4>Lámen</h4>
+            <p>Macarrão em caldo quente com vegetais e ovo. Opções: shimeji, yakiniku, carne, tyashu.</p>
+            <p class="dinheiro">R$ 45,00</p>
+            <button onclick="adicionarAoCarrinho('Lámen', 45.00)">Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="secao">
+          <img src="img/tempura.jpg" alt="Tempura" class="card">
+          <div>
+            <h4>Tempura</h4>
+            <p>Vegetais e mariscos fritos em polme fino.</p>
+            <p class="dinheiro">R$ 45,00</p>
+            <button onclick="adicionarAoCarrinho('Tempura', 45.00)">Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="secao">
+          <img src="img/missoshiro.jpg" alt="Missoshiro" class="card">
+          <div>
+            <h4>Missoshiro</h4>
+            <p>Sopa de miso com hondashi, tofu e cebolinha.</p>
+            <p class="dinheiro">R$ 45,00</p>
+            <button onclick="adicionarAoCarrinho('Missoshiro', 45.00)">Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </section>
+            <section id="Doces">
+                <h3>Doces</h3>
+               <div class="secao">
+                <img src="img/mochi.jpg" class="card">
+                   <div>
+                   <h4>Mochi</h4>
+                    <p>Bolinhos de arroz recheados com pasta de feijão azuki (anko), frutas ou cremes.</p>
+                    <p class="dinheiro">5 unidades R$ 15,00</p>
+                    <p class="dinheiro">10 unidades R$ 30,00</p>
+                    <button onclick="adicionarAoCarrinho('Mochi', 15.00)">Adicionar ao carrinho</button>
+                   </div>
+               </div>
+               <div class="secao">
+                <img src="img/taiyaki.jpg" class="card">
+                   <div>
+                   <h4>Taiyaki</h4>
+                    <p>Bolo em formato de peixe recheado com anko ou creme de baunilha/chocolate.</p>
+                    <p class="dinheiro">5 unidades R$ 25,00</p>
+                    <p class="dinheiro">10 unidades R$ 50,00</p>
+                    <button onclick="adicionarAoCarrinho('Taiyaki', 25.00)">Adicionar ao carrinho</button>
+                   </div>
+               </div>
+                <div class="secao">
+                <img src="img/manju.jpg" class="card">
+                   <div>
+                   <h4>Manju</h4>
+                    <p>Pequenas bolinhas de massa recheadas com pasta de feijão azuki ou com fritos.</p>
+                    <p class="dinheiro">5 unidades R$ 25,00</p>
+                    <p class="dinheiro">10 unidades R$ 50,00</p>
+                    <button onclick="adicionarAoCarrinho('Manju', 25.00)">Adicionar ao carrinho</button>
+                   </div>
+               </div>
+                <div class="secao">
+                <img src="img/yokan.jpg" class="card">
+                   <div>
+                   <h4>Yokan</h4>
+                    <p>Gelatina feita com anko, xarope de açúcar e ágar-ágar com textura firme e sabor suave.</p>
+                    <p class="dinheiro">5 unidades R$ 21,00</p>
+                    <p class="dinheiro">10 unidades R$ 42,00</p>
+                    <button onclick="adicionarAoCarrinho('Yokan', 5.00)">Adicionar ao carrinho</button>
+                   </div>
+               </div>
+                <div class="secao">
+                <img src="img/dango.jpg" class="card">
+                   <div>
+                   <h4>Dango</h4>
+                    <p>Bolinhas de farinha de arroz podendo ser coberto com molho de soja doce.</p>
+                    <p class="dinheiro">6 unidades R$ 20,00</p>
+                    <p class="dinheiro">12 unidades R$ 40,00</p>
+                    <button onclick="adicionarAoCarrinho('Dango', 20.00)">Adicionar ao carrinho</button>
+                   </div>
+               </div>
+                <div class="secao">
+                <img src="img/dorayaki.jpg" class="card">
+                   <div>
+                   <h4>Dorayaki</h4>
+                    <p>Panqueca com recheio doce com pasta de feijão azuki ou creme.</p>
+                    <p class="dinheiro">R$ 21,00</p>
+                    <button onclick="adicionarAoCarrinho('Dorayaki', 21.00)">Adicionar ao carrinho</button>
+                   </div>
+               </div>
+                <div class="secao">
+                <img src="img/bolo.jpg" class="card">
+                   <div>
+                   <h4>Bolo de matcha</h4>
+                    <p>Bolo com a cor e o sabor do chá matcha.</p>
+                    <p class="dinheiro">Fatia R$ 25,00</p>
+                    <button onclick="adicionarAoCarrinho('Bolo de matcha', 25.00)">Adicionar ao carrinho</button>
+                   </div>
+               </div>
+                <div class="secao">
+                <img src="img/anmistsu.jpg" class="card">
+                   <div>
+                   <h4>Anmitsu</h4>
+                    <p>Sobremesa com frutas, gelatina e mochi regada com calda doce.</p>
+                    <p class="dinheiro">R$ 18,00</p>
+                    <button onclick="adicionarAoCarrinho('anmistsu', 18.00)">Adicionar ao carrinho</button>
+                   </div>
+               </div>
+            </section>
+            <section id="Bebidas">
+                <h3>Bebidas</h3>
+                <h5>Refrigerantes</h5>
+                <div class="secao">
+                    <img src="img/coca.jpg" class="card">
+                    <div>
+                        <h4>Coca-cola</h4>
+                        <p class="dinheiro">500ml R$ 5,00</p>
+                        <p class="dinheiro">1L R$ 10,00</p>
+                        <button onclick="adicionarAoCarrinho('Coca-cola', 5.00)">Adicionar ao carrinho</button>
+                    </div>
+                </div><div class="secao">
+                    <img src="img/pepsi.jpg" class="card">
+                    <div>
+                        <h4>Pepsi</h4>
+                        <p class="dinheiro">500ml R$ 5,00</p>
+                        <p class="dinheiro">1L R$ 10,00</p>
+                        <button onclick="adicionarAoCarrinho('Pepsi', 5.00)">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <div class="secao">
+                    <img src="img/sprite.jpg" class="card">
+                    <div>
+                        <h4>Sprite</h4>
+                        <p class="dinheiro">500ml R$ 4,00</p>
+                        <p class="dinheiro">1L R$ 8,00</p>
+                        <button onclick="adicionarAoCarrinho('Sprite', 4.00)">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <div class="secao">
+                    <img src="img/24603289.webp" class="card">
+                    <div>
+                        <h4>fanta uva</h4>
+                        <p class="dinheiro">500ml R$ 4,50</p>
+                        <p class="dinheiro">1L R$ 8,50</p>
+                        <button onclick="adicionarAoCarrinho('fanta uva', 4.50)">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <div class="secao">
+                    <img src="img/fanta.jpg" class="card">
+                    <div>
+                        <h4>Fanta laranja</h4>
+                        <p class="dinheiro">500ml R$ 4,50</p>
+                        <p class="dinheiro">1L R$ 8,50</p>
+                        <button onclick="adicionarAoCarrinho('Fanta laranja', 4.50)">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <div class="secao">
+                    <img src="img/guarana.jpg" class="card">
+                    <div>
+                        <h4>Guaraná</h4>
+                        <p class="dinheiro">500ml R$ 4,50</p>
+                        <p class="dinheiro">1L R$ 8,50</p>
+                        <button onclick="adicionarAoCarrinho('Guaraná', 4.50)">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <h5>Sucos</h5>
+                <div class="secao">
+                    <img src="img/sucos.jpg" class="card">
+                    <div>
+                        <p>Abacaxi</p>
+                        <p>Uva</p>
+                        <p>Laranja</p>
+                        <p>Limão</p>
+                        <p>Maracujá</p>
+                        <p class="dinheiro">500ml R$ 5,00</p>
+                        <p class="dinheiro">1L R$ 10,00</p>
+                        <button onclick="adicionarAoCarrinho('Sucos', 5.00)">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <h5>Alcoólicos</h5>
+                <div class="secao">
+                    <img src="img/cerveja.jpg" class="card">
+                    <div>
+                        <h4>Cervejas</h4>
+                        <p>Itaipava</p>
+                        <p>Skol</p>
+                        <p>Brahma</p>
+                        <p class="dinheiro">R$ 7,00</p>
+                        <button onclick="adicionarAoCarrinho('Cervejas', 7.00)">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <div class="secao">
+                    <img src="img/vinho.jpg" class="card">
+                    <div>
+                        <h4>Vinhos</h4>
+                        <p>Pérgola</p>
+                        <p>Mioranza</p>
+                        <p>Olari</p>
+                        <p class="dinheiro">R$ 30,00</p>
+                        <button onclick="adicionarAoCarrinho('Vinhos', 30.00)">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+                <div class="secao">
+                    <img src="img/soju.jpg" class="card">
+                    <div>
+                        <h4>Soju</h4>
+                        <p class="dinheiro">R$ 31,00</p>
+                        <button onclick="adicionarAoCarrinho('Soju', 31.00)">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section>
+          <h2>Resumo do Carrinho</h2>
+         <ul id="resumo-carrinho"></ul>
+        </section>
+        <footer>
+           <p>&copy; 2025 Sunime’s. Projeto fictício escolar.</p>
+         <div class="social-icons">
+             <a href="#"><img src="img/instagram.jpg" alt="Instagram"></a>
+             <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+             <a href="#"><img src="img/whatsapp.jpg" alt="WhatsApp"></a>
+            </div>
+        </footer>
+
+       <button id="voltar-topo" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+        ⬆
+       </button>
+
+    </body>
+ <script src="carrinho.js"></script>
+
+</html>
