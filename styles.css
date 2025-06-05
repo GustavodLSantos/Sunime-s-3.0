@@ -51,7 +51,11 @@ h3 {
   margin-top: 30px;
 }
 
-h4, h5 {
+h4{
+  color: black;
+}
+
+h5 {
   color: #0051ff;
 }
 
