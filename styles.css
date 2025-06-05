@@ -41,18 +41,18 @@ section {
 }
 
 h2 {
-  color: #032266;
-  border-bottom: 2px solid #263d6d;
+  color: #0051ff;
+  border-bottom: 2px solid #0051ff;
   padding-bottom: 5px;
 }
 
 h3 {
-  color: #555;
+  color: #ff0000;
   margin-top: 30px;
 }
 
 h4, h5 {
-  color: black;
+  color: #0051ff;
 }
 
 img.card {
